@@ -8,7 +8,7 @@
         @csrf
         <label for="prompt">Enter your prompt:</label>
         <input type="text" name="prompt" id="prompt" class="border w-full p-2" required>
-        <button type="submit" class="bg-blue-600 text-white px-4 py-2 mt-2">Generate</button>
+        <button type="submit" class="bg-blue-600 px-4 py-2 mt-2 border border-blue-800 rounded border-black">Generate</button>
     </form>
 
     @error('error')
